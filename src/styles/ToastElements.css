@@ -1,0 +1,56 @@
+.IconContainer {
+    border-radius: 50%;
+    background-color: aliceblue;
+    max-width: 200px;
+    max-height: 200px;
+    min-width: 200px;
+    min-height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .ToastIcon {
+    width: 60%;
+    height: 60%;
+    animation: rotate 4s linear infinite;
+    object-fit: contain;
+    
+  }
+  
+  
+  
+  .Pulse {
+    background: var(--primary-color);
+    animation: pulse-animation 1.5s infinite;
+  }
+  
+  @keyframes pulse-animation {
+    0% {
+      box-shadow: 0 0 0 0px rgba(0, 0, 0, 0.2);
+    }
+    100% {
+      box-shadow: 0 0 0 20px rgba(0, 0, 0, 0);
+    }
+  }
+
+
+  .ToastInput {
+    display: block;
+    text-align: left;
+  }
+
+
+  .ToastForm {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .ToastContainer{
+    margin: 10px;
+    color: black;
+    background-color: rgb(238, 238, 238);
+    border: none;
+    border-radius: 8px;
+    padding: 10px;
+  }

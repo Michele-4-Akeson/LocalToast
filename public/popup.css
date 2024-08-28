@@ -1,0 +1,41 @@
+.Popup{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 400px;
+    height: 400px;
+    gap: 20px;
+    border-radius: 5px;
+    background-color: rgb(43, 43, 55);
+    color: aliceblue;
+    padding: 19px;
+}
+
+.IconContainer {
+    border-radius: 50%;
+    background-color: aliceblue;
+    width: 200px;
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.ToastIcon {
+    width: 60%;
+    height: 60%;
+    animation: rotate 4s linear infinite;
+    
+}
+
+
+@keyframes rotate {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(360deg);
+    }
+  }
+  
